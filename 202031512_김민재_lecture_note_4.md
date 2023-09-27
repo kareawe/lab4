@@ -25,13 +25,32 @@ clear 명령어는 터미널 또는 명령 프롬프트 창의 화면을 지워�
 
 ## cp
 cp: copy files and directories  
-"cp" 명령어는 파일이나 디렉토리를 복사하는 명령어입니다. "cp"는 "Copy"의 약자입니다. 이 명령어를 사용하여 파일을 다른 경로로 복사하거나 파일의 사본을 생성할 수 있습니다. 아래에서 "cp" 명령어의 기본 사용법을 설명합니다.
+"cp" 명령어는 파일이나 디렉토리를 복사하는 명령어입니다. "cp"는 "Copy"의 약자입니다. 이 명령어를 사용하여 파일을 다른 경로로 복사하거나 파일의 사본을 생성할 수 있습니다. 
 
 ## mv
 mv:move files and directories or rename them  
-mv" 명령어는 파일 또는 디렉토리를 이동하거나 이름을 변경하는 데 사용되는 명령어입니다. "mv"는 "Move"의 약자이며, 파일 또는 디렉토리를 현재 디렉토리 내에서 다른 위치로 이동하거나 이름을 변경할 때 사용됩니다. 아래에서 "mv" 명령어의 기본 사용법을 설명합니다.  
+mv" 명령어는 파일 또는 디렉토리를 이동하거나 이름을 변경하는 데 사용되는 명령어입니다. "mv"는 "Move"의 약자이며, 파일 또는 디렉토리를 현재 디렉토리 내에서 다른 위치로 이동하거나 이름을 변경할 때 사용됩니다.   
 
 ## rm
 rm: delete files and directories ***permantely and irreversevely!!***
+"rm" 명령어는 파일 또는 디렉토리를 삭제하는 데 사용되는 명령어입니다. "rm"은 "Remove"의 약자입니다. 이 명령어를 사용하여 파일이나 디렉토리를 영구적으로 삭제할 수 있습니다.
 
+## mkdir 
+mkdir: make a new directory
+"mkdir" 명령어는 새로운 디렉토리(폴더)를 생성하는 명령어입니다. "mkdir"은 "Make Directory"의 약자입니다. 이 명령어를 사용하여 컴퓨터 파일 시스템에서 새로운 디렉토리를 만들 수 있습니다.  
 
+## wildcards
+Wildcards(와일드카드)는 파일 및 디렉토리 이름을 패턴 매칭하기 위한 특수 문자입니다. 와일드카드를 사용하면 여러 파일 또는 디렉토리를 한 번에 선택하고 조작할 수 있습니다.  
+-*: all filenames
+-g*: all finemanes that begin with the characters "g"
+-b*.txt: all filename that begin with the charactres "b" and end with the characres  ".txt"
+-data???: any filename that begins with the characters "data" followed by exactly 3 more characters
+
+## help command
+1. help:Windows의 명령 프롬프트 (Command Prompt) 또는 PowerShell에서 "help" 명령어는 사용 가능한 명령어 및 명령어에 대한 도움말을 표시하는 데 사용됩니다.
+2. man: "man"은 Unix 및 Unix 계열 운영 체제에서 사용되는 명령어 및 프로그램에 대한 매뉴얼 페이지를 표시하는 명령어입니다. "man"은 "manual"의 약자로, 사용자가 명령어 및 프로그램의 사용법, 옵션, 설명 등을 확인하는 데 사용됩니다.
+
+## exit
+exiting terminal: exit  
+"exit" 명령어는 명령 프롬프트나 터미널 세션을 종료하는 데 사용됩니다. 이 명령어를 실행하면 현재 터미널 또는 명령 프롬프트 창이 종료되고, 현재 세션은 종료됩니다.  
+-$exit
